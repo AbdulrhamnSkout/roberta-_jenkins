@@ -4,7 +4,6 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'ls'
                 bat 'echo building...'
             }
         }
